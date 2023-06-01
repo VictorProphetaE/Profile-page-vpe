@@ -1,0 +1,252 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.alldiv {
+  display: none;
+}
+
+#home {
+  background-color: #216477;
+  padding-bottom: 1cm;
+  margin-left: -1cm;
+  margin-right: -1cm;
+  margin-top: -1cm;
+  padding-top: 2cm;
+  padding-bottom: 3cm;
+  height: 5mm;
+}
+
+.btn {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border-color: black;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: black;
+}
+
+.topdiv {
+  float: right;
+  padding-right: 1cm;
+}
+
+.profile_name {
+  color: whitesmoke;
+  float: left;
+  padding-left: 2cm;
+  font-size: 25px;
+}
+
+.profile_name .contact_info {
+  color: whitesmoke;
+  font-size: 15px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact_info img {
+  width: 25px;
+  margin-right: 10px;
+  float: left;
+}
+
+/* Titles */
+h2 {
+  text-align: justify;
+  font-size: 50px;
+  text-align: center;
+  float: left;
+  color: #216477;
+  margin: 30px;
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.introduction {
+  text-align: justify;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  animation-duration: 5s;
+  position: relative;
+}
+
+/* Used in the About Me sections */
+.container {
+  display: flex;
+}
+
+/* About Me */
+.about-me {
+  display: flex;
+  align-items: center;
+}
+
+#about-me {
+  text-align: center;
+}
+
+#about-me .container {
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-me h1 {
+  font-size: 65px;
+  margin: 40px;
+  color: #184957;
+}
+
+#about-me p {
+  font-size: 25px;
+  color: rgb(97, 97, 97);
+  margin-top: -1cm;
+}
+
+.profile_image {
+  width: 500px;
+  height: fit-content;
+  vertical-align: middle;
+  padding-right: 1cm;
+}
+
+/* Skills */
+.all_skills {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.skill {
+  border: 1px solid gray;
+  display: block;
+  border-radius: 6px;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  width: 2in;
+  font-size: 20px;
+  box-shadow: 0 3px 10px gray;
+}
+
+.skill img {
+  height: 35px;
+  align-items: center;
+}
+
+.skills h6 {
+  align-items: center;
+  font-size: 20px;
+  margin-block-start: 8px;
+  margin-block-end: 5px;
+  font-weight: bold;
+}
+
+.skills p {
+  align-items: center;
+  font-size: 15px;
+  color: gray;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Projects */
+.projects-container {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.projects-container hr {
+  border: 1px solid lightgray;
+  width: 75%;
+  margin-left: 5cm;
+}
+
+.project-card {
+  margin: 0 15px 15px 30px;
+  padding-bottom: 5px;
+}
+
+.project-card h3 {
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.project-card li {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.btn1 {
+  color: #216477;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn1:hover {
+  border-color: black;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: black;
+}
+
+.btn-h2-container {
+  display: flex;
+  align-items: center;
+}
+
+.btn2 {
+  color: #216477;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn2:hover {
+  border-color: black;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: black;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#formacoes-complementares ul {
+  margin-top: 0;
+}

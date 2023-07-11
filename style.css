@@ -9,12 +9,9 @@ body {
 
 #home {
   background-color: #216477;
-  padding-bottom: 1cm;
-  margin-left: -1cm;
-  margin-right: -1cm;
-  margin-top: -1cm;
+  margin-top: -1.5cm;
   padding-top: 2cm;
-  padding-bottom: 3cm;
+  padding-bottom: 3.25cm;
   height: 5mm;
 }
 
@@ -42,7 +39,7 @@ body {
 .profile_name {
   color: whitesmoke;
   float: left;
-  padding-left: 2cm;
+  padding-left: 30px;
   font-size: 25px;
 }
 
@@ -59,6 +56,10 @@ body {
   width: 25px;
   margin-right: 10px;
   float: left;
+}
+
+.contact_info a {
+  color: whitesmoke;
 }
 
 /* Titles */
@@ -115,6 +116,21 @@ h2 {
   font-size: 25px;
   color: rgb(97, 97, 97);
   margin-top: -1cm;
+}
+
+#formacoes-complementares li{
+  font-size: 17px;
+  margin-top: 0.2cm;
+}
+
+#habilidades p{
+  font-size: 20px;
+  margin-top: 2cm;
+}
+
+#objetivo p{
+  font-size: 20px;
+  margin-top: 2cm;
 }
 
 .profile_image {
@@ -198,10 +214,10 @@ h2 {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: 40px;
 }
 
 .btn1 {
@@ -249,4 +265,8 @@ footer {
 
 #formacoes-complementares ul {
   margin-top: 0;
+}
+
+#personprojects li{
+  margin-top: 0.25cm;
 }
